@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+* {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: whitesmoke;
+}
+.header__nav {
+  font-size: 20px;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+.header__nav:hover {
+  color: #333;
+}
+.table__container {
+  margin-top: 20px;
+  display: flex;
+  font-size: 18px;
+}
+.table {
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  background: linear-gradient(#e66465, #9198e5);
+  color: aliceblue;
+}
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+th {
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+}
+.header__container {
+  background: #999;
+}
+.footer {
+  background-color: #333;
+  margin-top: 25px;
+  padding: 50px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.footer__container > a {
+  color: whitesmoke;
+  transition: 0.3s;
+}
+.footer__container > a:hover {
+  color: #999;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.models__content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+#model-s {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#model-y {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#model-x {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#model-3 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#model-s > img {
+  width: 400px;
+  border-radius: 20px;
+  border: 4px solid gray;
+  margin-top: 20px;
+}
+#model-y > img {
+  width: 400px;
+  border-radius: 20px;
+  border: 4px solid gray;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#model-x > img {
+  width: 400px;
+  border-radius: 20px;
+  border: 4px solid gray;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#model-3 > img {
+  width: 400px;
+  border-radius: 20px;
+  border: 4px solid gray;
+  margin-top: 20px;
 }
